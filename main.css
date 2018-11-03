@@ -1,0 +1,157 @@
+/* 
+  GLOBAL
+*/
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  color: #2d3c49;
+  line-height: 1.2em;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 1.5em;
+}
+
+section {
+  padding: 0.5em;
+  margin-top: 1.25em;
+}
+
+/* 
+  HEADER
+*/
+
+header {
+  border-bottom: 3px solid #7d97ad;
+}
+
+.header-content {
+  padding: 1em 0;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content .header-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-content .header-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.header-start {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 1em;
+}
+
+.header-end {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 1;
+  margin-right: 1em;
+}
+
+/*
+  HERO
+*/
+
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 250px;
+}
+
+/*
+  FEATURED WORK
+*/
+
+.project-img {
+  width: 100%;
+  align-self: center;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+}
+
+.project-description {
+  margin-top: 0.5em;
+}
+
+/* 
+OTHERS
+*/
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.section-title {
+  margin-left: 0.75em;
+  font-weight: 200;
+  font-size: 1.75em;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-text-center {
+  text-align: center;
+}
+
+.flex-wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.col {
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.col:not(:first-child) {
+  margin-top: 1em;
+}
