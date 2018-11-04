@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <title>Niels Grieger</title>
     <meta name="viewport"
           content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
     <link rel="stylesheet"
-          href="main.css">
+          href="css/main.css">
     <link rel="stylesheet"
-          href="responsive.css">
+          href="css/responsive.css">
+
+    <!-- ICON FONT -->
+    <link rel="stylesheet"
+          href="css/fontello.css">
   </head>
 
   <body>
@@ -38,9 +43,12 @@
              alt="HTML file content">
       </div>
 
+      <!-- FEATURED WORK -->
       <section id="featured-work">
         <h1 class="section-title text-muted">Featured work</h1>
         <div class="flex-wrap-container">
+
+          <!-- TIME TRACKING -->
           <div class="col align-text-center">
             <img src="images/timetracking.jpg"
                  class="project-img"
@@ -48,9 +56,11 @@
                  alt="turned on gray alarm clock displaying 10:11">
             <div class="project-info">
               <p class="project-name">Timetracking</p>
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus.</p>
+              <p class="project-description">Modern and easy to use time tracking software</p>
             </div>
           </div>
+
+          <!-- RESOURCE PLANING -->
           <div class="col align-text-center">
             <img src="images/resource-planing.jpg"
                  class="project-img"
@@ -58,9 +68,11 @@
                  alt="woman putting a stick note on the wall">
             <div class="project-info">
               <p class="project-name">Resource planing</p>
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus.</p>
+              <p class="project-description">Comprehensive ressource planning program</p>
             </div>
           </div>
+
+          <!-- FUEL PRICE -->
           <div class="col align-text-center">
             <img src="images/fuel-price.jpg"
                  class="project-img"
@@ -68,12 +80,31 @@
                  alt="blue gas pump displaying 4.55 dollar">
             <div class="project-info">
               <p class="project-name">Fuel price comparison</p>
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus.</p>
+              <p class="project-description">Modern website to compare fuel prices in your area</p>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- SOCIAL MEDIA -->
+      <section id="social-media">
+        <h1 class="section-title text-muted">Social Media</h1>
+
+        <!-- TODO: add link to social profiles -->
+        <div class="button-group">
+          <a class="button button-twitter"
+             href="#"><i class="icon-twitter"></i></a>
+          <a class="button button-facebook"
+             href="#"><i class="icon-facebook"></i></a>
+          <a class="button button-instagram"
+             href="#"><i class="icon-instagram"></i></a>
+          <a class="button button-linkedin"
+             href="#"><i class="icon-linkedin"></i></a>
+        </div>
+      </section>
     </main>
+
+    <!-- TODO: add footer with contact information -->
   </body>
 
 </html>

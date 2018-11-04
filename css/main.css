@@ -22,7 +22,7 @@ p {
 body {
   color: #2d3c49;
   line-height: 1.2em;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -35,6 +35,10 @@ main {
 section {
   padding: 0.5em;
   margin-top: 1.25em;
+}
+
+section:last-child {
+  margin-bottom: 1.25em;
 }
 
 /* 
@@ -113,6 +117,77 @@ header {
   margin-top: 0.5em;
 }
 
+.col {
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.col:not(:first-child) {
+  margin-top: 1em;
+}
+
+/* 
+  SOCIAL MEDIA
+*/
+
+.button-group {
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+
+.button {
+  min-width: 50px;
+  min-height: 50px;
+  border: 1px solid #7d97ad;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+.button:not(:first-child) {
+  margin-left: 0.5em;
+}
+
+.button-twitter {
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.button-twitter:hover {
+  color: #fff;
+  background-color: #1da1f2;
+}
+
+.button-facebook {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+
+.button-facebook:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.button-instagram {
+  color: #cd486b;
+  border-color: #cd486b;
+}
+
+.button-instagram:hover {
+  color: #fff;
+  background-color: #cd486b;
+}
+
+.button-linkedin {
+  color: #0076b7;
+  border-color: #0076b7;
+}
+
+.button-linkedin:hover {
+  color: #fff;
+  background-color: #0076b7;
+}
+
 /* 
 OTHERS
 */
@@ -127,7 +202,6 @@ OTHERS
 }
 
 .section-title {
-  margin-left: 0.75em;
   font-weight: 200;
   font-size: 1.75em;
 }
@@ -143,15 +217,5 @@ OTHERS
 .flex-wrap-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1em;
-}
-
-.col {
-  width: 100%;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.col:not(:first-child) {
   margin-top: 1em;
 }

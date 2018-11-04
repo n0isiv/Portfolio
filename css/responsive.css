@@ -1,25 +1,27 @@
-@media screen and (min-width: 700px) and (max-width: 800px) {
+@media screen and (min-width: 700px) and (max-width: 850px) {
   .col {
     display: flex;
+    justify-content: space-between;
   }
 
   .project-img {
-    max-width: 50%;
+    max-width: 45%;
   }
 
   .project-info {
     justify-content: center;
     text-align: right;
+    max-width: 45%;
   }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 851px) {
   .col {
     width: calc(33.33% - 2em);
   }
 
-  .section-title {
-    margin-left: 1.5em;
+  .col:not(:first-child) {
+    margin-top: 0;
   }
 }
 
